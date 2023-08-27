@@ -3,7 +3,9 @@ import { TddDemo } from './components'
 </script>
 
 <template>
-  <tdd-demo />
+  <n-message-provider>
+    <tdd-demo />
+  </n-message-provider>
 </template>
 
 <style scoped>
